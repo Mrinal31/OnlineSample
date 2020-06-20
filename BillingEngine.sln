@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingEngine", "BillingEngine.csproj", "{C9A5C937-4F27-4F8B-9F87-E9D661D70377}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillingEngine", "BillingEngine.csproj", "{C9A5C937-4F27-4F8B-9F87-E9D661D70377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IRepository", "IRepository", "{3ABF37AC-E895-4008-B322-0FCB2AFF18EF}"
+	ProjectSection(SolutionItems) = preProject
+		IRepository.cs = IRepository.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{2E19B6E6-660D-4A93-A499-6A1602A05A0B}"
+	ProjectSection(SolutionItems) = preProject
+		Repository.cs = Repository.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
