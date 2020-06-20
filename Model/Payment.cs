@@ -11,6 +11,8 @@ namespace BillingEngine.Model
         public string PaymentType { get; set; }
 
         public int   PaymentFor { get; set; }
+
+        public int UserId { get; set; }
       
     }
 }

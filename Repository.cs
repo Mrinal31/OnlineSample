@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BillingEngine;
+using System;
 
 public class Repository : IRepository
 {
@@ -25,5 +26,12 @@ public class Repository : IRepository
     public void UpgradeMembership()
     {
         throw new NotImplementedException();
+    }
+
+    public void UpgradeMembershipAndEmail(int userid)
+    {
+        //retrieve the User Details from a persistent db
+
+        Helper.sendemail("reciepient", "fromAddress", "replyTo", "subject", "mailBody");
     }
 }

@@ -17,19 +17,19 @@ namespace BillingEngine
                     break;
 
                 case 2://Book
-
+                    repo.CreateDuplicatePackingSlip();
                     break;
                 case 3://Membership
-
+                    repo.ActivateMembership();
                     break;
                 case 4://Upgrade membership
-
+                    repo.UpgradeMembership();
                     break;
                 case 5://Upgrade and Email owner
-
+                    repo.UpgradeMembershipAndEmail(PaymentModel.UserId);
                     break;
                 case 6://Learning To Ski
-
+                    repo.LearningToSki();
                     break;
                 case 7://Physical Book
 

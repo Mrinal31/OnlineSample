@@ -12,6 +12,9 @@
 
 	void LearningToSki();
 
-	
+	void UpgradeMembershipAndEmail(int userid);
+
+
+
 
 }
